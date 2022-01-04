@@ -16,7 +16,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ccc;
   justify-content: center;
   align-items: center;
 }
@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #368f8b;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #000;
   border-color: #0070f3;
 }
 
@@ -106,6 +106,7 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  color: #333;
 }
 
 @media (max-width: 600px) {
