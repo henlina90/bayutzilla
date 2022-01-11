@@ -23,11 +23,11 @@ export const Banner = ({
     alignItems="center"
     justifyContent="center"
     p="10"
-    backgroundColor="#f5f5f5;"
+    // backgroundColor="#f5f5f5;"
     textAlign="center"
   >
     {/* <Image src={imageUrl} width={500} height={300} alt="cover" /> */}
-    <Box p="5">
+    <Box p="4">
       <Text color="gray.500" fontSize="sm" fontWeight="medium">
         {purpose}
       </Text>
@@ -53,7 +53,7 @@ export const Banner = ({
 const Home = ({ propertiesForSale, propertiesForRent }) => (
   <Box>
     <Banner
-      purpose="FOR RENT"
+      // purpose="FOR RENT"
       title1="Rental Properties"
       // title2="Everyone"
       desc1="Discover from apartments, builder floors, villas and more!"
@@ -68,7 +68,7 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
       ))}
     </Flex>
     <Banner
-      purpose="FOR SALE"
+      // purpose="FOR SALE"
       title1="Properties For Sale"
       // title2="Dream Home"
       desc1="Discover from apartments, land, builder floors, villas and more!"

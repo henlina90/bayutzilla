@@ -20,7 +20,7 @@ const Search = ({ properties }) => {
         cursor="pointer"
         bg="#1d1d1d;"
         borderBottom="1px"
-        borderColor="#0ead69;"
+        borderColor="#000;"
         p="2"
         fontWeight="#fff;"
         fontSize="lg"

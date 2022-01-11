@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import Image from "next/image"
 import { Box, Icon, Flex } from '@chakra-ui/react'
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu'
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);
@@ -10,9 +10,9 @@ const LeftArrow = () => {
   return (
     <Flex justifyContent="center" alignItems="center" marginRight="1">
       <Icon
-        as={FaArrowAltCircleLeft}
+        as={FaAngleLeft}
         onClick={() => scrollPrev()}
-        fontSize="2xl"
+        fontSize="3xl"
         cursor="pointer"
         d={['none','none','none','block']}
       />
@@ -26,7 +26,7 @@ const RightArrow = () => {
   return (
     <Flex justifyContent="center" alignItems="center" marginRight="1">
       <Icon
-        as={FaArrowAltCircleRight}
+        as={FaAngleRight}
         onClick={() => scrollNext()}
         fontSize="3xl"
         cursor="pointer"
