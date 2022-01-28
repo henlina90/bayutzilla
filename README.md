@@ -4,7 +4,7 @@
 
 ![screenshot](./screenshot.png "screenshot")
 
-## Key technologies
+## Key Technologies
 
 - Node v14.18.1
 - NPM 6.14.15
