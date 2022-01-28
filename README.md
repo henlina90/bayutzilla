@@ -1,6 +1,4 @@
-# graphql_cms_blog_app
-
-## Description
+# Bayutzilla
 
 A real estate application using RapidAPI to fetch data for rental and for-sale properties. Features include advanced property filtering, property details page with an image carousel, and much more.
 
@@ -16,6 +14,6 @@ A real estate application using RapidAPI to fetch data for rental and for-sale p
 ## Installation
 
 1. Fork or clone this repository
-2. `cd project_realestate_app`
+2. `cd bayutzilla`
 3. `npm install`
 4. `npm run dev`
